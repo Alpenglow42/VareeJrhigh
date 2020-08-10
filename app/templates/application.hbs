@@ -1,5 +1,19 @@
 {{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
+
 {{!-- Feel free to remove this! --}}
 
-{{outlet}}
+
+<div class="bg-green-300">
+
+    <div class="flex flex-row bg-gray-200">
+        <div class="text-gray-700  bg-gray-400">
+            <img class="h-24 w-auto" alt="varee logo" src="/assets/images/logo.png">
+        </div>
+    </div>
+
+    <NavBar />
+    {{outlet}}
+
+    {{!-- use col flex to align --}}
+
+</div>
